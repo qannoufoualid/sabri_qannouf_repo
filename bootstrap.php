@@ -18,7 +18,7 @@ $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__."/src/bo"),
 $conn = array(
     'driver'   => 'pdo_mysql',
     'user'     => 'root',
-    'password' => 'walidovitch1992',
+    'password' => '',
     'dbname'   => 'planifdb',
 );
 
