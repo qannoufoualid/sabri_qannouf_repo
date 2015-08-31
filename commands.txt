@@ -1,0 +1,13 @@
+**Pour executer ces commandes vous devez être placé dans la racine du projet**
+
+-commande pour installer une dependance Composer la dependance doit être specifier dans le fichier composer.json
+composer install
+
+-commande pour faire la mise à jour du fichier composer.json
+composer update
+
+-commande pour créer le schema de la base de données
+vendor/bin/doctrine orm:schema-tool:create 
+
+-commande pour faire la mise à jour du schema de la base de données
+vendor/bin/doctrine orm:schema-tool:update --force
